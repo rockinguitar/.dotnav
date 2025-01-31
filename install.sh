@@ -15,6 +15,9 @@ brew bundle --file=brew/Brewfile
 
 if command -v stow &> /dev/null; then
     echo "stow is already installed. Proceeding with your command..."
+    stow bat
+    stow lsd
+    stow starship
     stow warp
     stow zsh
 else
