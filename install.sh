@@ -9,6 +9,8 @@ else
     echo "Homebrew is already installed."
 fi
 
+brew bundle --file=brew/Brewfile
+
 #!/bin/bash
 
 if command -v stow &> /dev/null; then
