@@ -11,8 +11,6 @@ fi
 
 brew bundle --file=brew/Brewfile
 
-#!/bin/bash
-
 if command -v stow &> /dev/null; then
     echo "stow is already installed. Proceeding with your command..."
     stow bat
@@ -23,3 +21,6 @@ if command -v stow &> /dev/null; then
 else
     echo "stow is not installed, cannot add dotfile links"
 fi
+
+# Set mac settings
+macos/macdefaults.sh
