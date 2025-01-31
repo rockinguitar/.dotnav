@@ -3,9 +3,8 @@ eval "$(starship init zsh)"
 source <(fzf --zsh)
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
-PATH=~/.dotfiles/utilities:${PATH}
-export PATH
-source $HOME/.dotfiles/zsh/.aliases
+
+source $HOME/dotpit/zsh/.aliases
 
 # FZF catppucin
 export FZF_DEFAULT_OPTS=" \
