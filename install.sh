@@ -23,4 +23,4 @@ else
 fi
 
 # Set mac settings
-macos/macdefaults.sh
+macos/macosdefaults.sh
