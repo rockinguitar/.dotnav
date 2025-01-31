@@ -27,6 +27,10 @@ defaults write NSGlobalDomain AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 defaults write NSGlobalDomain com.apple.trackpad.scaling -float 2.0
 
-# Apply changes
-killall Finder
-killall Dock
+# controlcenter settings
+defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
+defaults write com.apple.controlcenter "Sound" -int 18
+defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool true
+defaults write com.apple.controlcenter "Bluetooth" -int 18
+defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
+defaults write com.apple.controlcenter "BatteryShowPercentage" -bool true
