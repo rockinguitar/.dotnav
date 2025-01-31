@@ -15,8 +15,8 @@ brew bundle --file=brew/Brewfile
 
 if command -v stow &> /dev/null; then
     echo "stow is already installed. Proceeding with your command..."
-    # Your command goes here, for example:
-    # some_command
+    stow warp
+    stow zsh
 else
     echo "stow is not installed, cannot add dotfile links"
 fi
