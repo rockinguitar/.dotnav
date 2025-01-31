@@ -26,6 +26,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write NSGlobalDomain AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 defaults write NSGlobalDomain com.apple.trackpad.scaling -float 2.0
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 
 # controlcenter settings
 defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
@@ -34,3 +35,6 @@ defaults write com.apple.controlcenter "NSStatusItem Visible Bluetooth" -bool tr
 defaults write com.apple.controlcenter "Bluetooth" -int 18
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -bool true
 defaults write com.apple.controlcenter "BatteryShowPercentage" -bool true
+
+# Startup Chime / StartupMute=%01 to mute
+sudo nvram StartupMute=%01
