@@ -1,3 +1,5 @@
+# Surpress last login message
+printf '\33c\e[3J'
 eval "$(starship init zsh)"
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
