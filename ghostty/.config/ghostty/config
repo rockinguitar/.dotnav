@@ -7,4 +7,5 @@ clipboard-read = allow
 clipboard-write = allow
 copy-on-select = true
 cursor-style = underline
+cursor-style-blink = false
 mouse-hide-while-typing = true
