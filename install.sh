@@ -17,7 +17,6 @@ if command -v stow &> /dev/null; then
     stow ghostty
     stow lsd
     stow starship
-    stow warp
     stow zsh
 else
     echo "stow is not installed, cannot add dotfile links"
