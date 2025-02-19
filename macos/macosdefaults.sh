@@ -29,6 +29,8 @@ defaults write NSGlobalDomain AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 defaults write NSGlobalDomain com.apple.trackpad.scaling -float 2.0
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+# Use of function keys like F1 etc.
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 
 # controlcenter settings
 defaults write com.apple.controlcenter "NSStatusItem Visible Sound" -bool true
