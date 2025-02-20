@@ -23,3 +23,6 @@ export FZF_CTRL_T_OPTS="
 
 # For FZF ALT-C, list of directories, instead of ç
 bindkey "ç" fzf-cd-widget
+
+# git autocomplete
+autoload -Uz compinit && compinit
