@@ -14,3 +14,4 @@
 	dc = diff --cached
 	po = push -u origin HEAD
 	c = checkout
+	ac = commit -am
