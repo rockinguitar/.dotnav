@@ -26,3 +26,6 @@ bindkey "ç" fzf-cd-widget
 
 # git autocomplete
 autoload -Uz compinit && compinit
+
+# podman https://podman-desktop.io/docs/migrating-from-docker/using-the-docker_host-environment-variable
+export DOCKER_HOST="unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
