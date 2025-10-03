@@ -1,3 +1,10 @@
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/Andre.Wittwer/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/Andre.Wittwer/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/Andre.Wittwer/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/Andre.Wittwer/google-cloud-sdk/completion.zsh.inc'; fi
+
 # Surpress last login message
 printf '\33c\e[3J'
 eval "$(starship init zsh)"
@@ -6,7 +13,7 @@ source <(fzf --zsh)
 # zoxide
 eval "$(zoxide init --cmd cd zsh)"
 
-source $HOME/dotpit/zsh/.aliases
+source $HOME/.dotnav/zsh/.aliases
 
 # FZF catppucin
 export FZF_DEFAULT_OPTS=" \
@@ -26,3 +33,7 @@ bindkey "ç" fzf-cd-widget
 
 # git autocomplete
 autoload -Uz compinit && compinit
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
