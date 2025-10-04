@@ -79,8 +79,6 @@ cask "miro"
 cask "naisdevice"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Browse, manage, inspect containers and images
-cask "podman-desktop"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Team communication and collaboration software
