@@ -37,3 +37,6 @@ autoload -Uz compinit && compinit
 # jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# fnm 
+eval "$(fnm env --use-on-cd --shell zsh)"
