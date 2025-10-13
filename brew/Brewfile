@@ -4,8 +4,16 @@ tap "nais/tap"
 brew "bat"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# Isolated development environments using Docker
+brew "docker-compose"
 # More intuitive version of du in rust
 brew "dust"
+# Fast and simple Node.js version manager
+brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -52,6 +60,8 @@ cask "1password"
 cask "arc"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
+# Web browser focusing on privacy
+cask "brave-browser"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # App to build and share containerised applications and microservices
@@ -67,6 +77,8 @@ cask "google-chrome"
 cask "iina"
 # Java IDE by JetBrains
 cask "intellij-idea"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Software for Logitech devices
 cask "logi-options+"
 # Provides updates to various Microsoft products
@@ -92,6 +104,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 vscode "catppuccin.catppuccin-vsc"
 vscode "catppuccin.catppuccin-vsc-icons"
+vscode "dbaeumer.vscode-eslint"
 vscode "golang.go"
 vscode "humao.rest-client"
 vscode "ms-azuretools.vscode-containers"
