@@ -56,8 +56,6 @@ brew "azure/kubelogin/kubelogin"
 brew "nais/tap/nais"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Chromium based browser
-cask "arc"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Web browser focusing on privacy
