@@ -58,8 +58,6 @@ brew "nais/tap/nais"
 cask "1password"
 # Command-line interface for 1Password
 cask "1password-cli"
-# Data management tool that enables working with SQL Server
-cask "azure-data-studio"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Open source IDE for exploring and testing APIs
@@ -89,8 +87,6 @@ cask "microsoft-auto-update"
 cask "microsoft-edge"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# Online collaborative whiteboard platform
-cask "miro"
 # naisdevice is a mechanism enabling developers to connect to internal resources in a secure and friendly manner.
 cask "naisdevice"
 # Knowledge base that works on top of a local folder of plain text Markdown files
