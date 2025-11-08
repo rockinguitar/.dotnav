@@ -68,7 +68,7 @@ cask "chatgpt"
 cask "docker-desktop"
 # Web browser
 cask "firefox"
-cask "font-jetbrains-mono-nerd-font"
+cask "font-monaspace"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
