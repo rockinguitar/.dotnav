@@ -56,6 +56,8 @@ brew "azure/kubelogin/kubelogin"
 brew "nais/tap/nais"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
 # Data management tool that enables working with SQL Server
 cask "azure-data-studio"
 # Web browser focusing on privacy
@@ -83,6 +85,8 @@ cask "jetbrains-toolbox"
 cask "logi-options+"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Multi-platform web browser
+cask "microsoft-edge"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Online collaborative whiteboard platform
@@ -102,17 +106,18 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "bradlc.vscode-tailwindcss"
 vscode "catppuccin.catppuccin-vsc"
 vscode "catppuccin.catppuccin-vsc-icons"
+vscode "christian-kohler.npm-intellisense"
 vscode "dbaeumer.vscode-eslint"
-vscode "golang.go"
-vscode "humao.rest-client"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "github.copilot"
+vscode "github.copilot-chat"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode.powershell"
 vscode "redhat.vscode-yaml"
-vscode "tamasfe.even-better-toml"
-vscode "tim-koehler.helm-intellisense"
 vscode "vscjava.vscode-gradle"
 vscode "yzhang.markdown-all-in-one"
