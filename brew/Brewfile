@@ -69,6 +69,7 @@ cask "docker-desktop"
 # Web browser
 cask "firefox"
 cask "font-monaspace"
+cask "font-monaspice-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -103,7 +104,6 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 vscode "bradlc.vscode-tailwindcss"
-vscode "catppuccin.catppuccin-vsc-icons"
 vscode "christian-kohler.npm-intellisense"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
@@ -116,4 +116,5 @@ vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"
 vscode "redhat.vscode-yaml"
 vscode "vscjava.vscode-gradle"
+vscode "vscode-icons-team.vscode-icons"
 vscode "yzhang.markdown-all-in-one"

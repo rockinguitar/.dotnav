@@ -41,5 +41,5 @@ eval "$(jenv init -)"
 # fnm 
 eval "$(fnm env --use-on-cd --shell zsh)"
 
-# PAT token
+# PAT token path to 1password
 export NPM_AUTH_TOKEN="op://NAV/nav-pat-token/password"

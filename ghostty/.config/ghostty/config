@@ -1,5 +1,5 @@
-theme = Catppuccin Mocha
-font-family = "Monaspace Krypton"
+theme = GitHub Dark
+font-family = "MonaspiceNe Nerd Font"
 font-size = 15
 macos-titlebar-style = tabs
 background-blur-radius = 20
