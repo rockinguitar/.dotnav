@@ -20,5 +20,27 @@
   "editor.fontLigatures": true,
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.fontFamily": "Monaspace Krypton",
-  "workbench.colorTheme": "GitHub Dark"
+  "workbench.colorTheme": "GitHub Dark",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontSize": 13,
+  "editor.cursorBlinking": "smooth",
+  "editor.quickSuggestionsDelay": 0,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "terminal.integrated.fontSize": 14,
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.next": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.idea": true,
+    "**/.next": true
+  }
 }
