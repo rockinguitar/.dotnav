@@ -43,5 +43,31 @@
     "**/.idea": true,
     "**/.next": true
   },
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+
+  // Enhanced Editor Experience
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.tabCompletion": "on",
+
+  // Better File Management
+  "explorer.autoReveal": "focusNoScroll",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.revealIfOpen": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Enhanced Terminal & Git
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // Performance & Search Optimizations
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "search.smartCase": true,
+  "search.useIgnoreFiles": true
 }
