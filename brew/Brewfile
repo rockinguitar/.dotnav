@@ -12,16 +12,12 @@ brew "docker", link: false
 brew "docker-compose"
 # More intuitive version of du in rust
 brew "dust"
-# Fast and simple Node.js version manager
-brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
 brew "git"
-# Manage your Java environment
-brew "jenv"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes command-line interface
@@ -32,10 +28,8 @@ brew "kubectx"
 brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
-# Development kit for the Java programming language
-brew "openjdk"
-# Development kit for the Java programming language
-brew "openjdk@21"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
@@ -111,6 +105,7 @@ vscode "esbenp.prettier-vscode"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
+vscode "github.vscode-pull-request-github"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-vscode-remote.remote-containers"

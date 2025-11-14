@@ -16,7 +16,9 @@ if command -v stow &> /dev/null; then
     stow bat
     stow ghostty
     stow lsd
+    stow mise
     stow starship
+    stow vscode
     stow zsh
 else
     echo "stow is not installed, cannot add dotfile links"

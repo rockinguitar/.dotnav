@@ -34,12 +34,8 @@ bindkey "ç" fzf-cd-widget
 # git autocomplete
 autoload -Uz compinit && compinit
 
-# jenv
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
-# fnm 
-eval "$(fnm env --use-on-cd --shell zsh)"
-
 # PAT token path to 1password
 export NPM_AUTH_TOKEN="op://NAV/nav-pat-token/password"
+
+# mise
+eval "$(mise activate zsh)"
