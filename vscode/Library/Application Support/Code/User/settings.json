@@ -1,17 +1,11 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
   "git.openRepositoryInParentFolders": "always",
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "github.copilot.nextEditSuggestions.enabled": true,
   "git.enableSmartCommit": true,
   "git.blame.editorDecoration.enabled": true,
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "window.confirmSaveUntitledWorkspace": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -24,7 +18,7 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "prettier.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
@@ -69,5 +63,10 @@
   "typescript.suggest.autoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "search.smartCase": true,
-  "search.useIgnoreFiles": true
+  "search.useIgnoreFiles": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.customTitleBarVisibility": "never",
+  "gitlens.plusFeatures.enabled": false,
+  "workbench.startupEditor": "none"
 }

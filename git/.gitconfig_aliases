@@ -15,3 +15,4 @@
 	po = push -u origin HEAD
 	c = checkout
 	ac = commit -am
+	gs = !git fetch -p >/dev/null 2>&1 && git branch -vv | grep ': gone]' | awk '{print $1}'
