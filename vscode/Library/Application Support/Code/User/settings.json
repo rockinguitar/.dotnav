@@ -15,12 +15,12 @@
   "workbench.iconTheme": "vscode-icons",
   "terminal.integrated.fontFamily": "Monaspace Krypton",
   "workbench.colorTheme": "GitHub Dark",
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "prettier.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "editor.fontSize": 13,
   "editor.cursorBlinking": "smooth",
@@ -30,12 +30,12 @@
   "files.exclude": {
     "**/.idea": true,
     "**/.next": true,
-    "**/node_modules": true
+    "**/node_modules": true,
   },
   "search.exclude": {
     "**/node_modules": true,
     "**/.idea": true,
-    "**/.next": true
+    "**/.next": true,
   },
   "workbench.activityBar.location": "top",
 
@@ -68,5 +68,7 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "window.customTitleBarVisibility": "never",
   "gitlens.plusFeatures.enabled": false,
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "chat.mcp.gallery.enabled": true,
+  "chat.viewSessions.orientation": "stacked",
 }

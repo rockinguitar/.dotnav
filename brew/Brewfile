@@ -76,8 +76,6 @@ cask "iina"
 cask "intellij-idea"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
-# Software for Logitech devices
-cask "logi-options+"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Multi-platform web browser
@@ -90,6 +88,8 @@ cask "naisdevice"
 cask "obsidian"
 # Control your tools with a few keystrokes
 cask "raycast"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
 # Team communication and collaboration software
 cask "slack"
 # Open-source code editor
@@ -106,9 +106,11 @@ vscode "eamodio.gitlens"
 vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
+vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-playwright.playwright"
 vscode "ms-vscode-remote.remote-containers"
 vscode "prettier.prettier-vscode"
 vscode "redhat.vscode-yaml"
