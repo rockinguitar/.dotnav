@@ -17,8 +17,7 @@
   "workbench.colorTheme": "GitHub Dark",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
   },
@@ -71,4 +70,8 @@
   "workbench.startupEditor": "none",
   "chat.mcp.gallery.enabled": true,
   "chat.viewSessions.orientation": "stacked",
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
 }

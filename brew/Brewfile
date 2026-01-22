@@ -2,6 +2,8 @@ tap "azure/kubelogin"
 tap "nais/tap"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Toolchain of the web
+brew "biome"
 # Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
 # Container runtimes on MacOS (and Linux) with minimal setup
@@ -60,6 +62,8 @@ cask "brave-browser"
 cask "bruno"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
 # Web browser
@@ -83,7 +87,7 @@ cask "microsoft-edge"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # naisdevice is a mechanism enabling developers to connect to internal resources in a secure and friendly manner.
-cask "naisdevice"
+cask "nais/tap/naisdevice"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Control your tools with a few keystrokes
@@ -99,9 +103,10 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.npm-intellisense"
-vscode "dbaeumer.vscode-eslint"
+vscode "ciarant.vscode-structurizr"
 vscode "eamodio.gitlens"
 vscode "github.copilot"
 vscode "github.copilot-chat"
@@ -112,7 +117,6 @@ vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-playwright.playwright"
 vscode "ms-vscode-remote.remote-containers"
-vscode "prettier.prettier-vscode"
 vscode "redhat.vscode-yaml"
 vscode "tamasfe.even-better-toml"
 vscode "vitest.explorer"
