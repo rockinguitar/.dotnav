@@ -9,7 +9,22 @@ alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
-alias lt='ls --tree'% 
+alias lt='ls --tree'%
 
 # Kubectl
 alias k='kubectl'
+alias kuc='k config get-contexts -o name | fzf --height=40% --reverse | xargs -r kubectl config use-context'
+
+## Get resources
+alias kgp='k get pods'
+alias kgd='k get deployments'
+alias kgs='k get services'
+alias kgn='k get namespaces'
+
+## Describe/logs
+alias kdp='k describe pod'
+alias kl='k logs'
+alias klf='k logs -f'
+
+## Context
+alias kgc='k config current-context'
