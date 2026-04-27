@@ -14,7 +14,6 @@
 	"editor.fontLigatures": true,
 	"workbench.iconTheme": "vscode-icons",
 	"terminal.integrated.fontFamily": "Monaspace Krypton",
-	"workbench.colorTheme": "GitHub Dark",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.defaultFormatter": "biomejs.biome",
@@ -85,5 +84,9 @@
 	},
 	"[github-actions-workflow]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
+	},
+	"githubPullRequests.pullBranch": "never",
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
 	}
 }
