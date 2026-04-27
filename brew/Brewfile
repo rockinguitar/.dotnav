@@ -28,10 +28,10 @@ brew "git"
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
 brew "k9s"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
@@ -80,8 +80,6 @@ cask "google-chrome"
 cask "iina"
 # Java IDE by JetBrains
 cask "intellij-idea"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Multi-platform web browser
@@ -108,6 +106,7 @@ mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 vscode "andrewbutson.vscode-openapi-viewer"
+vscode "astro-build.astro-vscode"
 vscode "automatalabs.copilot-mcp"
 vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"

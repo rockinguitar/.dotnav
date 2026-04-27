@@ -10,3 +10,9 @@ path = ~/.gitconfig_work
 
 [include]
 path = ~/.gitconfig_aliases
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
