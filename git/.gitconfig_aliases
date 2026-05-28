@@ -1,6 +1,6 @@
 [alias]
 	st = status -sb
-	ll = log --oneline
+	ll = log --pretty=format:\"%C(yellow)%h%Creset %C(cyan)%ad%Creset %s\" --date=format:\"%Y-%m-%d %H:%M\"
 	last = log -1 HEAD --stat
 	cm = commit -m
 	rv = remote -v
@@ -17,3 +17,4 @@
 	ac = commit -am
 	gs = !git fetch -p >/dev/null 2>&1 && git branch -vv | grep ': gone]' | awk '{print $1}'
 	sync = "!git fetch origin main:main && git rebase main"
+
