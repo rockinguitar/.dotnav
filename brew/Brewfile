@@ -24,6 +24,8 @@ brew "fzf"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Kubernetes CLI To Manage Your Clusters In Style!
@@ -48,6 +50,8 @@ brew "tlrc"
 brew "wget"
 # Library to create, extract, and modify Windows Imaging files
 brew "wimlib"
+# Find security issues in GitHub Actions setups
+brew "zizmor"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Real-time type-ahead completion for Zsh
@@ -112,9 +116,8 @@ vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.npm-intellisense"
 vscode "ciarant.vscode-structurizr"
-vscode "eamodio.gitlens"
+vscode "donjayamanne.githistory"
 vscode "fwcd.kotlin"
-vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
 vscode "github.vscode-github-actions"
 vscode "github.vscode-pull-request-github"
@@ -127,5 +130,7 @@ vscode "tamasfe.even-better-toml"
 vscode "vitest.explorer"
 vscode "vscjava.vscode-gradle"
 vscode "vscode-icons-team.vscode-icons"
-vscode "vstirbu.vscode-mermaid-preview"
+vscode "vue.volar"
 vscode "yzhang.markdown-all-in-one"
+npm "corepack"
+npm "playwright"
