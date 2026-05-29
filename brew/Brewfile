@@ -18,6 +18,8 @@ brew "docker"
 brew "docker-compose"
 # More intuitive version of du in rust
 brew "dust"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
@@ -40,6 +42,8 @@ brew "lsd"
 brew "mas"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
