@@ -61,4 +61,5 @@ alias hovmester='copilot --agent=hovmester --reasoning-effort high \
    --deny-tool="shell(chmod)" \
    --deny-tool="shell(chown)" \
    --deny-tool="shell(eval)"'
-eval "$(cplt --shell-setup)"
+
+# eval "$(cplt --shell-setup)"
