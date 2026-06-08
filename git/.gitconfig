@@ -4,6 +4,7 @@ path = ~/.gitconfig_work
 [core]
 	editor = code --wait
 	autocrlf = input
+	pager = delta
 
 [init]
 	defaultBranch = main
@@ -16,3 +17,10 @@ path = ~/.gitconfig_aliases
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/opt/homebrew/bin/gh auth git-credential
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+[merge]
+	conflictstyle = zdiff3

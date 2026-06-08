@@ -1,20 +1,31 @@
 [alias]
 	st = status -sb
 	ll = log --pretty=format:\"%C(yellow)%h%Creset %C(cyan)%ad%Creset %s\" --date=format:\"%Y-%m-%d %H:%M\"
+	lg = log --graph --decorate --oneline --all
 	last = log -1 HEAD --stat
-	cm = commit -m
-	rv = remote -v
-	gl = config --global -l
-	p = push
-	se = !git rev-list --all | xargs git grep -F
-	cob = checkout -b
-	f = fetch -p
-	ba = branch -a
-	bD = branch -D
-	dc = diff --cached
-	po = push -u origin HEAD
-	c = checkout
-	ac = commit -am
-	gs = !git fetch -p >/dev/null 2>&1 && git branch -vv | grep ': gone]' | awk '{print $1}'
-	sync = "!git fetch origin main:main && git rebase main"
 
+	sw = switch
+	c = checkout
+	cob = switch -c
+
+	cm = commit -m
+	ca = commit --amend
+	cane = commit --amend --no-edit
+	ac = commit -am
+
+	p = push
+	po = push -u origin HEAD
+	pf = push --force-with-lease
+
+	f = fetch --prune
+	rv = remote -v
+	ba = branch -a
+
+	d = diff
+	dc = diff --cached
+
+	unstage = restore --staged
+	rb = rebase -i --autosquash
+	cp = cherry-pick
+
+	gl = config --global -l
