@@ -40,6 +40,10 @@ export NPM_AUTH_TOKEN="op://NAV/nav-pat-token/password"
 # mise
 eval "$(mise activate zsh)"
 
+# colima & docker config
+export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
+export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE="/var/run/docker.sock"
+
 # hovmester configuration
 alias hovmester='copilot --agent=hovmester --reasoning-effort high \
    --add-dir ~/.copilot \
