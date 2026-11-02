@@ -91,5 +91,50 @@
 	},
 	"[json]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
-	}
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"yaml.disableSchemaDetection": [
+		"**/.github/workflows/*.yml",
+		"**/.github/workflows/*.yaml",
+		"**/.gitea/workflows/*.yml",
+		"**/.gitea/workflows/*.yaml",
+		"**/.forgejo/workflows/*.yml",
+		"**/.forgejo/workflows/*.yaml"
+	],
+	"security.promptForLocalFileProtocolHandling": false,
+	"intellij.region": "europe",
+	"intellij.dataSharing": "none",
+	"[kotlin]": {
+		"editor.defaultFormatter": "JetBrains.kotlin-server"
+	},
+	"pgsql.serverGroups": [
+		{
+			"name": "Servers",
+			"id": "DB38ACC0-7B96-4F91-9434-F62EEA7ED023",
+			"isDefault": true
+		}
+	],
+	"pgsql.connections": [
+		{
+			"id": "451DA6E6-B87F-43B3-AF51-014BBECF36FC",
+			"groupId": "DB38ACC0-7B96-4F91-9434-F62EEA7ED023",
+			"authenticationType": "SqlLogin",
+			"connectTimeout": 15,
+			"applicationName": "esyfo-narmesteleder",
+			"clientEncoding": "utf8",
+			"sslmode": "prefer",
+			"savePassword": true,
+			"sslRootCertMode": "none",
+			"server": "localhost",
+			"user": "username",
+			"password": "",
+			"database": "esyfo-narmesteleder_dev",
+			"profileName": "localhost:5432, <default> (username)",
+			"port": "5432",
+			"sshPassword": "",
+			"expiresOn": 0
+		}
+	]
 }

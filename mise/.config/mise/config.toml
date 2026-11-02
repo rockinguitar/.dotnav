@@ -4,4 +4,4 @@ node = "24"
 pnpm = "latest"
 
 [env]
-NPM_AUTH_TOKEN = { value = "{{ exec(command='gh auth token', cache_key='NPM_AUTH_TOKEN', cache_duration='1h') | trim }}", tools = true, redact = true }
+NPM_AUTH_TOKEN = { value = "{{ exec(command='gh auth token') | trim }}", tools = true, redact = true }

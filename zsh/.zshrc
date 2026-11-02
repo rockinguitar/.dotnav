@@ -44,26 +44,12 @@ eval "$(mise activate zsh)"
 export DOCKER_HOST="unix://$HOME/.colima/default/docker.sock"
 export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE="/var/run/docker.sock"
 
-# hovmester configuration
-alias hovmester='copilot --agent=hovmester --reasoning-effort high \
-   --add-dir ~/.copilot \
-   --disallow-temp-dir \
-   --allow-all-urls \
-   --allow-tool=write \
-   --allow-tool="shell(git:*)" \
-   --allow-tool="shell(mise:*)" \
-   --allow-tool="shell(./gradlew)" \
-   --allow-tool="shell(gradle)" \
-   --allow-tool="shell(java)" \
-   --allow-tool="shell(javac)" \
-   --allow-tool="shell(kotlin)" \
-   --allow-tool="shell(kotlinc)" \
-   --allow-tool="shell(pnpm:*)" \
-   --allow-tool="shell(python3:*)" \
-   --allow-tool="shell(gh:*)" \
-   --deny-tool="shell(sudo:*)" \
-   --deny-tool="shell(chmod)" \
-   --deny-tool="shell(chown)" \
-   --deny-tool="shell(eval)"'
+# copilot
+cop() {
+  command copilot \
+    --agent=grillmester:grillmester \
+    --yolo \
+    "$@"
+}
 
-# eval "$(cplt --shell-setup)"
+export PATH=/opt/homebrew/sbin:$PATH
